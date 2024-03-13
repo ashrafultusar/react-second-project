@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/JcVgXPt/Rectangle-1.png",
+        "title": "The Enigmatic Chronicles",
+        "author_img": "https://i.ibb.co/tHBCWw8/max-duzij-q-Aj-Jk-un3-BI-unsplash.jpg",
+        "posted_date": "2024-03-13",
+        "author":"Anmol Baloch",
+        "reading_time": 5,
+        "hashtag": [
+        "beginners",
+        "javascript"  
+        ]
+      },
+      
+      {
+        "id":2,
+        "cover": "https://i.ibb.co/MB72fyW/Rectangle-1-1.png",
+        "title": "Quantum Odyssey",
+        "author_img": "https://i.ibb.co/rytphTS/danial-igdery-FCHl-Yv-R5g-JI-unsplash.jpg",
+        "posted_date": "2024-03-14",
+        "author": "Devit Bernur",
+        "reading_time": 7,
+        "hashtag": [
+          "intermidet",
+          "es6"
+        ]
+      },
+    
+      {
+        "id": 3,
+        "cover": "https://i.ibb.co/Q9rDNv4/Rectangle-1-2.png",
+        "title": "Whispers in the Shadows",
+        "author_img": "https://i.ibb.co/ygywFSb/maxwell-ridgeway-Uyhtqol-KMb4-unsplash.jpg",
+        "posted_date": "2024-03-15",
+        "author": "Jonson Devit",
+        "reading_time": 18,
+        "hashtag": [
+"advance",
+"react"
+        ]
+      }
+      
+    
+]
