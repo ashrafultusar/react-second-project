@@ -3,16 +3,33 @@ import './App.css'
 import Blogs from './Components/Blogs/Blogs'
 import Header from './Components/Header/Header'
 import Bookmarks from './Components/Bookmarks/Bookmarks';
+import { useState } from 'react';
 
 function App() {
  
+  const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
+
+
+  const handelBookmark = blog => {
+    const newBookmark = [...bookmarks, blog];
+    setBookmarks(newBookmark);
+  }
+  
+
+  const handelMarkAsRead = time => {
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime)
+  }
+
+
   return (
     <>
       <Header></Header>
 
-      <main className='md:flex'>
-        <Blogs></Blogs>
-        <Bookmarks></Bookmarks>
+      <main className='md:flex max-w-7xl mx-auto'>
+        <Blogs handelBookmark={handelBookmark} handelMarkAsRead={handelMarkAsRead} ></Blogs>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
 
       </main>
       
